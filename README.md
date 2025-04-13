@@ -15,7 +15,7 @@ New assignments will be updated every week, organized by week number.
 ---
 ## 📁 Weekly Assignments
 
-- [Week 1](https://github.com/TayJeong/TechnicalBasics1_Leuphana/tree/main/assignments/week1)
+- [Week 1](./week1/)
 
 
 
