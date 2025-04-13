@@ -15,7 +15,7 @@ New assignments will be updated every week, organized by week number.
 ---
 ## 📁 Weekly Assignments
 
-- [Week 1](./week1/)
+- [Week 1](./assingments/week1)
 
 
 
