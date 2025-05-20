@@ -59,7 +59,7 @@ try:
         writer.writeheader()
         writer.writerows(students)
 
-    print(f"처리 완료: {output_path}\n")
+    print(f"finish to make: {output_path}\n")
 
     df = pd.read_csv(output_path)
 

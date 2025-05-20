@@ -25,6 +25,7 @@ New assignments will be updated every week, organized by week number.
 - [Week 3](https://github.com/TayJeong/TechnicalBasics1_Leuphana/tree/main/assignments/week3)
 - [Week 4](https://github.com/TayJeong/TechnicalBasics1_Leuphana/tree/main/assignments/week4)
 - [Week 5](https://github.com/TayJeong/TechnicalBasics1_Leuphana/tree/main/assignments/week5)
+- [Week 7](https://github.com/TayJeong/TechnicalBasics1_Leuphana/tree/main/assignments/week7)
 
 
 
