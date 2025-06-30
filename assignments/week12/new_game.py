@@ -62,7 +62,6 @@ while running:
             running = False
 
     if not game_over:
-        # 키 입력
         keys = pygame.key.get_pressed()
         if keys[pygame.K_UP]:
             player_rect.move_ip(0, -5)
@@ -71,16 +70,15 @@ while running:
 
         player_rect.clamp_ip(win.get_rect())
 
-        # 선인장 이동
         cactus_rect.move_ip(-cactus_speed, 0)
 
         if cactus_rect.right < 0:
             cactus_rect.left = WIDTH + random.randint(50, 200)
             cactus_rect.top = random.randint(60, HEIGHT - 60)
 
-        # 충돌 감지
+
         if player_rect.colliderect(cactus_rect):
-            hit_sound.play()  # 충돌 시 효과음 재생
+            hit_sound.play()
 
             score += 1
             hits += 1
@@ -92,7 +90,6 @@ while running:
             if hits >= 3:
                 game_over = True
 
-        # 렌더링
         win.blit(player_img, player_rect)
         win.blit(cactus_img, cactus_rect)
 
